@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://kit.fontawesome.com/7360853fc4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Snapchat-1586340412.jpg" class="logo">
+                <ul id="sidemenu"> 
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, i'm <span>Rensca</span><br>from Kenya.</h1>
+            </div>
+        </div>
+    </div>
+    <!----about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="Snapchat-1586340412.jpg">
+                </div>
+                <div class="col2">
+                    <h1 class="subtitle">About me!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam neque iusto harum adipisci excepturi repellendus veritatis voluptatem commodi necessitatibus eius! Fugit perferendis repellendus magni iure magnam ab consequuntur a maiores.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    
+                    </div>
+                    <div class="tabcontents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Designing Web/App interfaces</li>
+                            <li><span>Web Developing</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Bulding Android/iOS apps</li>
+                            <li><span>Software Developing</span><br>Developing Computers Sofware</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Experience">
+                        <ul>
+                            <li><span>2024- Current</span><br> building apps at an online platform.</li>
+                            <li><span>2023-2024</span><br> Developing web applications at ET Institute.</li>
+                            <li><span>2021-2020</span><br>App Designing in a tech company</li>
+                            <li><span>2019-2020</span><br> Internship at Safaricom PLC</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="Education">
+                        <ul>
+                            <li><span>2018</span><br> certificate at KIPS College</li>
+                            <li><span>2017</span><br> degree certificate at Havard university</li>
+                            <li> <span>2017</span><br>App Designing at a tech college</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----Services---->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="servicelist">
+                <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rem expedita exercitationem deleniti facere maiores veniam, maxime vel tenetur! Quibusdam, a totam optio voluptates soluta aperiam animi enim neque officiis.</p>
+                <a href="#">Learn More</a>
+                </div>
+            
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Software Developing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rem expedita exercitationem deleniti facere maiores veniam, maxime vel tenetur! Quibusdam, a totam optio voluptates soluta aperiam animi enim neque officiis.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>App design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rem expedita exercitationem deleniti facere maiores veniam, maxime vel tenetur! Quibusdam, a totam optio voluptates soluta aperiam animi enim neque officiis.</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--------potfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1  class="subtitle">My Works</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="imageste.jpg">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem mollitia perspiciatis iure, fugit obcaecati libero aspernatur sed? Rerum atque, non distinctio tenetur facere perferendis maiores blanditiis delectus similique ab.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="code.jpg">
+                <div class="layer">
+                    <h3>Web design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem mollitia perspiciatis iure, fugit obcaecati libero aspernatur sed? Rerum atque, non distinctio tenetur facere perferendis maiores blanditiis delectus similique ab.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pexels-luis-gomes-166706-546819.jpg">
+                <div class="layer">
+                    <h3>App design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem mollitia perspiciatis iure, fugit obcaecati libero aspernatur sed? Rerum atque, non distinctio tenetur facere perferendis maiores blanditiis delectus similique ab.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See More..</a>
+            
+        </div>
+    </div>
+    <!-------contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>milli@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0716516001</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="CV.docx" Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder=" Your Message....."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Kim.</p>
+    </div>
+    
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "1";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "200px";
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyx963K7rScoLriq87-8nwiR1-khDz-eCY-MGVntK9DqC0AvwXpoCHjMDwaYjKG4l1i-Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
